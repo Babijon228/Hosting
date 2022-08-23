@@ -1,0 +1,39 @@
+html { 
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+
+}
+
+.container {
+    min-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_list {
+    display: flex;
+}
+
+.menu_list li{
+    margin-left: 38px;
+}
+
+.menu_list a{
+    font-size: 14px;
+    color: #2f3f54;
+    font-weight: 700;
+    font-family: 'Open';
+}
